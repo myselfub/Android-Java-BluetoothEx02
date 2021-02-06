@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ServerActivity">
+
+    <TextView
+        android:id="@+id/serverTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/serverEt"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="3"
+            android:hint="내용을 입력해주세요."
+            android:textSize="18dp" />
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:onClick="sendMsg"
+            android:text="전송"
+            android:textSize="21dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
