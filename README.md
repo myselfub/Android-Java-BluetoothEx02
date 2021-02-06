@@ -1,2 +1,2 @@
-# Android-BluetoothEx02
-Android Bluetooth Chatting Test
+# Android-Java-BluetoothEx02
+Android Java Bluetooth Chatting Test
